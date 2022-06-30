@@ -12,8 +12,8 @@ configuration:
   sbi: # Service-based interface information
     scheme: http # the protocol for sbi (http or https)
     registerIPv4: udm.free5gc.org # IP used to register to NRF
-    bindingIPv4: udm.free5gc.org  # IP used to bind the service
-    port: 8000 # Port used to bind the service
+    bindingIPv4: udm.free5gc.org # IP used to bind the service
+    port: 7000 # Port used to bind the service
     tls: # the local path of TLS key
       pem: ./config/TLS/udm.pem # UDM TLS Certificate
       key: ./config/TLS/udm.key # UDM TLS Private key

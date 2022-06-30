@@ -26,4 +26,4 @@ VOLUME [ "/free5gc/config" ]
 VOLUME [ "/free5gc/config/TLS" ]
 
 # Exposed ports
-EXPOSE 8000
+EXPOSE 6000
